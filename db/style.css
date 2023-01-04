@@ -1,0 +1,47 @@
+.nav {
+    background-color: #161816;
+    border-radius: 10px;
+}
+
+body {
+    margin: 0;
+}
+ 
+.grid-container {
+    
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.website {
+    
+    border: 1px solid #161816;
+    background-color: aqua;
+    color: snow;
+    text-align: center;
+    width: 95%;
+    margin: 10;
+
+}
+
+iframe {
+    overflow: hidden;
+    /* pointer-events: none; */
+}
+
+.title {
+    position: relative;
+    height: 50px;
+    
+}
+
+.head {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
